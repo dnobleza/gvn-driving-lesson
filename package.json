@@ -1,0 +1,20 @@
+{
+  "name": "gvn",
+  "version": "1.0.0",
+  "description": "driving lesson web app",
+  "homepage": "https://github.com/dnobleza/gvn-driving-lesson#readme",
+  "bugs": {
+    "url": "https://github.com/dnobleza/gvn-driving-lesson/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnobleza/gvn-driving-lesson.git"
+  },
+  "license": "ISC",
+  "author": "Dan Erwin Noblez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
