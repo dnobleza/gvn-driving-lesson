@@ -4,8 +4,9 @@ const jwt = require('jsonwebtoken');
 const { pool } = require ('pg');
 require ('dotenv').config();
 
-// dotenv.config();
-// connectDB;
+
+const connectDB = require('./models/db')
+connectDB;
 
 const app = express();
 app.use(express.json());
@@ -13,3 +14,4 @@ app.use(express.json());
 
 const PORT = process.env.PORT  || 5000;
 app.listen(PORT, () => console.log(`server is now running on port ${PORT}`));
+
